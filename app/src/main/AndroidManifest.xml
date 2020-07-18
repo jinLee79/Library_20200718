@@ -11,6 +11,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">  <!--activity마다 다르게 theme 줄 수 있음-->
         <activity android:name=".ProfilePhotoActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
